@@ -32,8 +32,10 @@ public class Logintest extends Base {
 		lp.Login().click();
 		log.debug("Clicked on login option");
 		
+		
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.Email().sendKeys(email);
+	System.out.println(email);
 		log.debug("Email addressed got entered");
 		loginPage.Password().sendKeys(password);
 		log.debug("Password got entered");
