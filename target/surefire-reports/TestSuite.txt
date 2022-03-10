@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 350.125 s <<< FAILURE! - in TestSuite
+tests.Logintest.login[varun@gmail.com, varun, failure](2)  Time elapsed: 188.355 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-EI6TKCK5', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283e20f15e46e5680cf6e4e94c47cc95, get {url=http://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\varun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59793/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 283e20f15e46e5680cf6e4e94c47cc95
+	at tests.Logintest.login(Logintest.java:27)
+Caused by: java.util.concurrent.TimeoutException
+	at tests.Logintest.login(Logintest.java:27)
+
