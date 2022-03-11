@@ -38,6 +38,7 @@ public class Logintest extends Base {
 	System.out.println(email);
 		log.debug("Email addressed got entered");
 		loginPage.Password().sendKeys(password);
+		System.out.println(password);
 		log.debug("Password got entered");
 		loginPage.Loginbtn().click();
 		log.debug("Clicked on Login Button");
