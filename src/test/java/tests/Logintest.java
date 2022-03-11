@@ -31,7 +31,7 @@ public class Logintest extends Base {
 		log.debug("Clicked on My Account dropdown");
 		lp.Login().click();
 		log.debug("Clicked on login option");
-		
+		//login done
 		
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.Email().sendKeys(email);
